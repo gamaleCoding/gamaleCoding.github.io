@@ -1,0 +1,52 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+}
+.about h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about p {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  width: 70%;
+}
+
+.about-picture {
+  border-radius: 40%;
+  box-shadow:
+    0px 0px 40px rgba(24, 119, 242, 0.6),
+    0px 0px 20px rgba(210, 150, 40, 0.6);
+}
+
+.about span {
+  background: linear-gradient(90deg, #d29628, rgb(24, 119, 242));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.about-me-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
