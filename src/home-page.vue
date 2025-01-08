@@ -278,7 +278,7 @@ import { onMounted } from 'vue'
 import { typewriterEffect } from "@/dynamic-text.js";
 
  const dynamicText = ref(null);
-    const textArray = ["FULLSTACK WEB DEVELOPER", "HANDSOME PROGRAMMER"];
+    const textArray = ["FULLSTACK WEB DEVELOPER", "VLOGGER"];
 
     onMounted(() => {
       if (dynamicText.value) {
